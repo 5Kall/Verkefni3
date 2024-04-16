@@ -2,5 +2,7 @@
 
 KEST3WG05DU-Hát Windows Server - grunnur
 
-Vilhjálmur Karl Hannesson
+
+Nemendur.
+Vilhjálmur Karl Hannesson.
 Þorvaldur Breki Lárusson
