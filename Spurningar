@@ -1,5 +1,10 @@
 1.	Setjið upp Domain Controller.
 2.	Lénsnafnið á að vera TSK-<nafnið ykkar>.local. 
+
+https://cdn.discordapp.com/attachments/1166754036557553676/1229817377370280027/image.png?ex=66310faf&is=661e9aaf&hm=a640c2495eb1b8f4c0486752852f79c50861803212f0c809abab6061d0750340&
+
+
+
 3.	Setjið upp DHCP server.
 4.	Notið netið 192.168.1.64/26, LAN ip-talan á servernum ykkar á að vera síðasta nothæfa talan af netinu. 
 5.	Úthlutið fyrstu 30 tölum af netinu með DHCP. 
