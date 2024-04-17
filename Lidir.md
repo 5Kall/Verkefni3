@@ -1,9 +1,11 @@
+
 1.	Setjið upp Domain Controller.
 
-
+Við bættum Active Directory Domain Services hlutverkinu og keyrum Configuration Wizard til að tilgreina valkosti og ljúka uppsetningu. Eftir að þjónninn hefur verið endurræstur stiltum við tölvunar, hópum og stefnum með Active Directory verkfærum.
 sjá mynd 1. fyrir virkni
     
 2.	Lénsnafnið á að vera TSK-<nafnið ykkar>.local. 
+
 
 
 Mynd 1)
@@ -23,13 +25,13 @@ Mynd 1)
 
 
    
-7.	Úthlutið fyrstu 30 tölum af netinu með DHCP.  
-8.	Setjið upp NAT.
-9.	Hver starfsmaður þarf að fá sína eigin möppu á servernum sem aðeins hann hefur aðgang að, mappast sem H:.
-10.	Vísið Documents og Desktop möppum starfsmannsins á möppuna á servernum.
-11.	Setjið upp möppu og prentara fyrir hverja deild.
-12.	Setjið upp eina möppu og einn prentara sem allir hafa aðgang að. 
-13.	Starfsmenn í Framleiðsludeild eiga að vera með http://www.forritun.is og https://kodun.is í Favorites í Internet Explorer. Tryggið einnig að þeir geti ekki eytt history í Internet Explorer.
+6.	Úthlutið fyrstu 30 tölum af netinu með DHCP.  
+7.	Setjið upp NAT.
+8.	Hver starfsmaður þarf að fá sína eigin möppu á servernum sem aðeins hann hefur aðgang að, mappast sem H:.
+9.	Vísið Documents og Desktop möppum starfsmannsins á möppuna á servernum.
+10.	Setjið upp möppu og prentara fyrir hverja deild.
+11.	Setjið upp eina möppu og einn prentara sem allir hafa aðgang að. 
+12.	Starfsmenn í Framleiðsludeild eiga að vera með http://www.forritun.is og https://kodun.is í Favorites í Internet Explorer. Tryggið einnig að þeir geti ekki eytt history í Internet Explorer.
 14.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win8 tölvur.
 15.	Allar tölvur eiga vera með Firefox vafrann upp settan. 
 16.	Starfsmenn í Framleiðsludeild eiga ekki að geta ræst Firefox.
