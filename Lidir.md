@@ -13,8 +13,12 @@ Mynd 1)
 
 
 3.	Setjið upp DHCP server.
+   
+settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 
+sjá mynd 2. fyrir virkni
 
+Mynd 2)
 <img width="513" alt="Mynd-3" src="https://github.com/5Kall/Verkefni3/assets/89195445/5861b5b9-ab6b-4775-acf9-1c380a5e04be">
 
 4.	Notið netið 192.168.1.64/26,
