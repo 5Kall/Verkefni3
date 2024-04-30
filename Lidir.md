@@ -65,13 +65,23 @@ settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 
 
 
+
 <img width="533" alt="9" src="https://github.com/5Kall/Verkefni3/assets/89195445/35830038-91bd-4078-b1a3-4c1f1a4b55b3">
 
 
 12.	Setjið upp eina möppu og einn prentara sem allir hafa aðgang að.
+
+    bjóum til möppu og prentara sem allir hafa aðgang að
+
+    
 <img width="529" alt="10-mappa" src="https://github.com/5Kall/Verkefni3/assets/89195445/dc08469d-9ae8-4564-aef6-199bdc6a6edb">
 
-     
+
+
+
+<img width="526" alt="10-prentari" src="https://github.com/5Kall/Verkefni3/assets/89195445/7523fc79-f8e0-4530-afab-023edc9ff2ba">
+
+
 14.	Starfsmenn í Framleiðsludeild eiga að vera með http://www.forritun.is og https://kodun.is í Favorites í Internet Explorer. Tryggið einnig að þeir geti ekki eytt history í Internet Explorer.
 15.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win8 tölvur.
 16.	Allar tölvur eiga vera með Firefox vafrann upp settan. 
