@@ -1,1 +1,36 @@
+Import-Module ActiveDirectory
 
+$securePassword = ConvertTo-SecureString "2015P@ssword" -AsPlainText -Force
+
+$filepath = "C:\Users\Administrator\Desktop\NewUsers.csv"
+
+$Users = Import-Csv $filepath -Delimiter "`t"
+
+ForEach ($user in $Users){
+
+    $name       = $user.Nafn
+    $fname      = $user.Fornafn
+    $lname      = $user.Eftirnafn
+    $username   = $user.Notendanafn
+    $ou         = $user.Deild
+    $status     = $user.Stada
+
+    if (-not (Get-ADOrganizationalUnit -Filter {Name -eq $ou})) {
+        try {
+            New-ADOrganizationalUnit -Name $ou -Path "OU=Reykjavik,DC=itnetspace,DC=net" -ErrorAction Stop
+            Write-Host "Organizational Unit $ou created."
+        }
+        catch {
+            Write-Host "Error creating Organizational Unit $($ou): $" -ForegroundColor Red
+            continue
+        }
+    }
+
+    try {
+        New-ADUser -Name "$fname $lname" -GivenName $fname -Surname $lname -UserPrincipalName "$username@$($ou.Replace('OU=',''))" -SamAccountName $username -Path "OU=$ou,OU=Reykjavik,DC=itnetspace,DC=net" -AccountPassword $securePassword -ChangePasswordAtLogon $true -Enabled $true -Description $status -ErrorAction Stop
+        Write-Host "Account Created for $fname $lname in $ou"
+    }
+    catch {
+        Write-Host "Error creating user $($fname) $($lname): $" -ForegroundColor Red
+    }
+}
