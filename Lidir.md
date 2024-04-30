@@ -35,7 +35,7 @@ settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 
 
    
-7.	Setjið upp NAT.
+6.	Setjið upp NAT.
 
     stilltum á static iptölu,  uppsetning á NAT búnaði
    
@@ -54,10 +54,10 @@ settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 
 
 
-10.	Vísið Documents og Desktop möppum starfsmannsins á möppuna á servernum.
+8.	Vísið Documents og Desktop möppum starfsmannsins á möppuna á servernum.
 
 
-11.	Setjið upp möppu og prentara fyrir hverja deild.
+9.	Setjið upp möppu og prentara fyrir hverja deild.
 
     Við bjóum til prentara inná device manager fyrir hverja deild ásamt möppu
 
@@ -69,7 +69,7 @@ settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 <img width="533" alt="9" src="https://github.com/5Kall/Verkefni3/assets/89195445/35830038-91bd-4078-b1a3-4c1f1a4b55b3">
 
 
-12.	Setjið upp eina möppu og einn prentara sem allir hafa aðgang að.
+10.	Setjið upp eina möppu og einn prentara sem allir hafa aðgang að.
 
     bjóum til möppu og prentara sem allir hafa aðgang að
 
@@ -82,7 +82,14 @@ settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 <img width="526" alt="10-prentari" src="https://github.com/5Kall/Verkefni3/assets/89195445/7523fc79-f8e0-4530-afab-023edc9ff2ba">
 
 
-14.	Starfsmenn í Framleiðsludeild eiga að vera með http://www.forritun.is og https://kodun.is í Favorites í Internet Explorer. Tryggið einnig að þeir geti ekki eytt history í Internet Explorer.
+11.	Starfsmenn í Framleiðsludeild eiga að vera með http://www.forritun.is og https://kodun.is í Favorites í Internet Explorer. Tryggið einnig að þeir geti ekki eytt history í Internet Explorer.
+
+    stilla upp group policy fyrir notendur þar sem þeir eru með forritun.is og kodun.is sem upphafsforrit. réttindi notendana var tekin í burtu með því að þeir geta        ekki eytt gögnum af internet explorer
+
+<img width="378" alt="11-A" src="https://github.com/5Kall/Verkefni3/assets/89195445/2428efa1-39ac-4a95-8110-ae95556dc579">
+
+
+
 15.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win8 tölvur.
 16.	Allar tölvur eiga vera með Firefox vafrann upp settan. 
 17.	Starfsmenn í Framleiðsludeild eiga ekki að geta ræst Firefox.
