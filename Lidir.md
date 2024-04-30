@@ -28,11 +28,14 @@ Mynd 2)
 
    
 5.	Úthlutið fyrstu 30 tölum af netinu með DHCP.
-
-
-
    <img width="512" alt="image" src="https://github.com/5Kall/Verkefni3/assets/89195445/9274c083-2ad8-4230-8f62-049ba45b8c73">
+
+
+
+
+   
 6.	Setjið upp NAT.
+<img width="513" alt="Mynd-3" src="https://github.com/5Kall/Verkefni3/assets/89195445/4ed5f53d-417d-4bca-9771-f95002fc75e0">
 
 
 
