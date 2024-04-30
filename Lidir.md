@@ -54,16 +54,30 @@ settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 
 
 
-
 10.	Vísið Documents og Desktop möppum starfsmannsins á möppuna á servernum.
+
+
 11.	Setjið upp möppu og prentara fyrir hverja deild.
-12.	Setjið upp eina möppu og einn prentara sem allir hafa aðgang að. 
-13.	Starfsmenn í Framleiðsludeild eiga að vera með http://www.forritun.is og https://kodun.is í Favorites í Internet Explorer. Tryggið einnig að þeir geti ekki eytt history í Internet Explorer.
-14.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win8 tölvur.
-15.	Allar tölvur eiga vera með Firefox vafrann upp settan. 
-16.	Starfsmenn í Framleiðsludeild eiga ekki að geta ræst Firefox.
-17.	Allir notendur eiga að vera með Chrome vafrann upp settan.
-18.	Allir notendur eiga að vera með Bubbles screen-saver (bubbles.scr) sem fer sjálfkrafa á hjá þeim eftir fimm mínútur.
-19.	Starfsmenn í Framleiðsludeild geta ekki opnað taskmanager eða control panel.
-20.	Starfsmenn í Tölvudeild eiga að fá Start Screen en ekki Desktop þegar þeir logga sig inn.
+
+    Við bjóum til prentara inná device manager fyrir hverja deild ásamt möppu
+
+<img width="520" alt="9_prentarar" src="https://github.com/5Kall/Verkefni3/assets/89195445/b4be4d67-1e7b-48a9-8ec9-832bd1803dee">
+
+
+
+<img width="533" alt="9" src="https://github.com/5Kall/Verkefni3/assets/89195445/35830038-91bd-4078-b1a3-4c1f1a4b55b3">
+
+
+12.	Setjið upp eina möppu og einn prentara sem allir hafa aðgang að.
+<img width="529" alt="10-mappa" src="https://github.com/5Kall/Verkefni3/assets/89195445/dc08469d-9ae8-4564-aef6-199bdc6a6edb">
+
+     
+14.	Starfsmenn í Framleiðsludeild eiga að vera með http://www.forritun.is og https://kodun.is í Favorites í Internet Explorer. Tryggið einnig að þeir geti ekki eytt history í Internet Explorer.
+15.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win8 tölvur.
+16.	Allar tölvur eiga vera með Firefox vafrann upp settan. 
+17.	Starfsmenn í Framleiðsludeild eiga ekki að geta ræst Firefox.
+18.	Allir notendur eiga að vera með Chrome vafrann upp settan.
+19.	Allir notendur eiga að vera með Bubbles screen-saver (bubbles.scr) sem fer sjálfkrafa á hjá þeim eftir fimm mínútur.
+20.	Starfsmenn í Framleiðsludeild geta ekki opnað taskmanager eða control panel.
+21.	Starfsmenn í Tölvudeild eiga að fá Start Screen en ekki Desktop þegar þeir logga sig inn.
  
