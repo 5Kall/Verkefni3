@@ -35,12 +35,21 @@ Mynd 2)
 
    
 6.	Setjið upp NAT.
+   
 <img width="513" alt="Mynd-3" src="https://github.com/5Kall/Verkefni3/assets/89195445/4ed5f53d-417d-4bca-9771-f95002fc75e0">
 
 
 
 7.	Hver starfsmaður þarf að fá sína eigin möppu á servernum sem aðeins hann hefur aðgang að, mappast sem H:
+
+   
+   bjóum til folder fyrir hvern einasta notanda
+   
    <img width="515" alt="7" src="https://github.com/5Kall/Verkefni3/assets/89195445/40003aeb-3c6b-45fc-a9ab-846e3a22e112">
+
+
+
+
 
 10.	Vísið Documents og Desktop möppum starfsmannsins á möppuna á servernum.
 11.	Setjið upp möppu og prentara fyrir hverja deild.
