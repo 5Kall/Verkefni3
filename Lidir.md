@@ -2,13 +2,10 @@
 1.	Setjið upp Domain Controller.
 
 Við bættum Active Directory Domain Services hlutverkinu og keyrum Configuration Wizard til að tilgreina valkosti og ljúka uppsetningu. Eftir að þjónninn hefur verið endurræstur stiltum við tölvunar, hópum og stefnum með Active Directory verkfærum.
-sjá mynd 1. fyrir virkni
     
 2.	Lénsnafnið á að vera TSK-<nafnið ykkar>.local. 
 
 
-
-Mynd 1)
 <img width="513" alt="Mynd1" src="https://github.com/5Kall/Verkefni3/assets/89195445/b3823007-3e42-49e0-8329-d74125d056fc">
 
 
@@ -16,25 +13,32 @@ Mynd 1)
    
 settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 
-sjá mynd 2. fyrir virkni
 
-Mynd 2)
 <img width="513" alt="Mynd-3" src="https://github.com/5Kall/Verkefni3/assets/89195445/5861b5b9-ab6b-4775-acf9-1c380a5e04be">
 
 4.	Notið netið 192.168.1.64/26, LAN ip-talan á servernum ykkar á að vera síðasta nothæfa talan af netinu.
+
+    stilltum svið ip-talanna, sjá mynd virkni og kóða
+   
 
 
 <img width="512" alt="Mynd-45" src="https://github.com/5Kall/Verkefni3/assets/89195445/a9a6d832-e83d-4a2c-96c2-2252b35351d4">
 
    
 5.	Úthlutið fyrstu 30 tölum af netinu með DHCP.
+
+    úthlutuðum 30 tölum, þar sem við byrjuðum á 10 gefur hann frá sér bara upp að 40
+   
    <img width="512" alt="image" src="https://github.com/5Kall/Verkefni3/assets/89195445/9274c083-2ad8-4230-8f62-049ba45b8c73">
 
 
 
 
    
-6.	Setjið upp NAT.
+7.	Setjið upp NAT.
+
+    stilltum á static iptölu,  uppsetning á NAT búnaði
+   
    
 <img width="513" alt="Mynd-3" src="https://github.com/5Kall/Verkefni3/assets/89195445/4ed5f53d-417d-4bca-9771-f95002fc75e0">
 
