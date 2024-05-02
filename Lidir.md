@@ -90,11 +90,36 @@ settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 
 
 
-15.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win8 tölvur.
-16.	Allar tölvur eiga vera með Firefox vafrann upp settan. 
+15.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win8 tölvur.+
+
+
+
+
+16.	Allar tölvur eiga vera með Firefox vafrann upp settan.
+
+
+
+
 17.	Starfsmenn í Framleiðsludeild eiga ekki að geta ræst Firefox.
+
+
+
 18.	Allir notendur eiga að vera með Chrome vafrann upp settan.
+
+
+
 19.	Allir notendur eiga að vera með Bubbles screen-saver (bubbles.scr) sem fer sjálfkrafa á hjá þeim eftir fimm mínútur.
+
+með því að fara í stillingar, "personalization", "screen saver settings". stillum við á Bubbles og að tölvan slekkur eftir 1 mínutu
+
+![Bubbles](https://github.com/5Kall/Verkefni3/assets/89195445/eb09f7b2-6d31-40f3-b2fc-c1126cc655ff)
+
+
+
 20.	Starfsmenn í Framleiðsludeild geta ekki opnað taskmanager eða control panel.
-21.	Starfsmenn í Tölvudeild eiga að fá Start Screen en ekki Desktop þegar þeir logga sig inn.
+
+
+
+    
+22.	Starfsmenn í Tölvudeild eiga að fá Start Screen en ekki Desktop þegar þeir logga sig inn.
  
