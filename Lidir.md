@@ -90,7 +90,7 @@ settum fyrst upp DHCP Server hlutverkið á Windows Server vélinni. .
 
 
 
-15.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win8 tölvur.+
+15.	Starfsmenn Tölvudeild hafa full admin réttindi á allar Win10 tölvur.
 
 
 
